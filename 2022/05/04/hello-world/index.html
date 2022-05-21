@@ -214,11 +214,11 @@ window.addEventListener('load',preloader.endLoading())</script><div class="js-pj
 function loadGitalk () {
   function initGitalk () {
     var gitalk = new Gitalk(Object.assign({
-      clientID: '',
-      clientSecret: '',
-      repo: '',
-      owner: '',
-      admin: [''],
+      clientID: '4308e9143ae92994023b',
+      clientSecret: '41dabdd919280575cf473fff90872d2f08fd80e0',
+      repo: 'https://github.com/DvLZH/DvLZH.github.io',
+      owner: 'DvLZH',
+      admin: ['DvLZH'],
       id: 'ba3d56c61cc0575e106486f37cfa4644',
       updateCountCallback: commentCount
     },null))
@@ -251,13 +251,13 @@ if ('Gitalk' === 'Gitalk' || !true) {
   function initValine () {
     const valine = new Valine(Object.assign({
       el: '#vcomment',
-      appId: '',
-      appKey: '',
+      appId: 'pUcPJFY3d4AMP1rla3yCJJLs-gzGzoHsz',
+      appKey: 'hJvMsgME9N90JsyojDhg8k6E',
       avatar: 'monsterid',
-      serverURLs: '',
+      serverURLs: 'https://blog.oigat.cn/',
       emojiMaps: "",
       path: window.location.pathname,
-      visitor: false
+      visitor: true
     }, null))
   }
 
@@ -276,4 +276,17 @@ if ('Gitalk' === 'Valine' || !true) {
 POWERMODE.shake = true;
 POWERMODE.mobile = true;
 document.body.addEventListener('input', POWERMODE);
-</script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
+</script><script>((window.gitter = {}).chat = {}).options = {
+  room: 'LZHblog123/community',
+};
+
+if (false) {
+  function chatBtnHide () {
+    document.getElementsByClassName('gitter-open-chat-button')[0].style.display= 'none'
+  }
+
+  function chatBtnShow () {
+    document.getElementsByClassName('gitter-open-chat-button')[0].style.display= 'block'
+  }
+}
+</script><script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async="async" defer="defer"></script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
